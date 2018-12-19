@@ -1,0 +1,20 @@
+﻿  Building Custom Rule H:/5EII/PPEM/preesm/tutoun/org.ietr.preesm.sobel/Code/CMakeLists.txt
+  CMake does not need to re-run because H:/5EII/PPEM/preesm/tutoun/org.ietr.preesm.sobel/Code/bin/CMakeFiles/generate.stamp is up-to-date.
+cl : Ligne de commande warning D9002: option '-std=c99' inconnue ignorée
+  clock.c
+  sobel.c
+  splitMerge.c
+  yuvDisplay.c
+  yuvRead.c
+  Core0.c
+  Core1.c
+  Core2.c
+  Core3.c
+  communication.c
+  dump.c
+  fifo.c
+  mac_barrier.c
+  main.c
+  Génération de code en cours...
+  sobel.vcxproj -> H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\bin\Debug\sobel.exe
+  sobel.vcxproj -> H:/5EII/PPEM/preesm/tutoun/org.ietr.preesm.sobel/Code/bin/Debug/sobel.pdb (Full PDB)

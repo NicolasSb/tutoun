@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\src\clock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\src\sobel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\src\splitMerge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\src\yuvDisplay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\src\yuvRead.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\Core0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\Core1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\Core2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\Core3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\communication.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\dump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\fifo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\mac_barrier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\include\clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\include\preesm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\include\sobel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\include\splitMerge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\include\yuvDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\include\yuvRead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\communication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\dump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\fifo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\mac_barrier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\generated\preesm_gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\5EII\PPEM\preesm\tutoun\org.ietr.preesm.sobel\Code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F07B63CD-255F-355B-8815-CAEA656E0C9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8354CBC7-6611-3740-A0A8-65B36ED48F5F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

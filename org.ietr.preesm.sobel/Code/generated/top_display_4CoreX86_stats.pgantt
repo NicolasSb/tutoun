@@ -1,0 +1,128 @@
+
+<data>
+	<event
+		start="0"
+		end="100"
+		title="Read_YUV_0 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Read_YUV_0_(x1).</event>
+	<event
+		start="100"
+		end="200"
+		title="Split_0 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Split_0_(x1).</event>
+	<event
+		start="200"
+		end="204"
+		title="explode_Split_0_output (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_explode_Split_0_output_(x1).</event>
+	<event
+		start="204"
+		end="304"
+		title="Sobel_0 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Sobel_0_(x1).</event>
+	<event
+		start="304"
+		end="404"
+		title="Sobel_4 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Sobel_4_(x1).</event>
+	<event
+		start="404"
+		end="408"
+		title="implode_Merge_0_input (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_implode_Merge_0_input_(x1).</event>
+	<event
+		start="408"
+		end="508"
+		title="Merge_0 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Merge_0_(x1).</event>
+	<event
+		start="508"
+		end="608"
+		title="display_0 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_display_0_(x1).</event>
+	<event
+		start="204"
+		end="304"
+		title="Sobel_1 (x1)"
+		mapping="Core1"
+		color="#c896fa"
+		>Step_Sobel_1_(x1).</event>
+	<event
+		start="304"
+		end="404"
+		title="Sobel_5 (x1)"
+		mapping="Core1"
+		color="#c896fa"
+		>Step_Sobel_5_(x1).</event>
+	<event
+		start="204"
+		end="304"
+		title="Sobel_2 (x1)"
+		mapping="Core2"
+		color="#c896fa"
+		>Step_Sobel_2_(x1).</event>
+	<event
+		start="304"
+		end="404"
+		title="Sobel_6 (x1)"
+		mapping="Core2"
+		color="#c896fa"
+		>Step_Sobel_6_(x1).</event>
+	<event
+		start="204"
+		end="304"
+		title="Sobel_3 (x1)"
+		mapping="Core3"
+		color="#c896fa"
+		>Step_Sobel_3_(x1).</event>
+	<event
+		start="304"
+		end="404"
+		title="Sobel_7 (x1)"
+		mapping="Core3"
+		color="#c896fa"
+		>Step_Sobel_7_(x1).</event>
+	<perfs>
+		work="1208"
+		span="0"
+		impl_length="608"
+	impl_nbCores="4"
+		impl_nbUsedCores="4"
+		<core
+			id="Core0"
+			load="608"
+			used_mem="681472"
+			>Core_Core0.</core>
+		<core
+			id="Core1"
+			load="200"
+			used_mem="53504"
+			>Core_Core1.</core>
+		<core
+			id="Core2"
+			load="200"
+			used_mem="53504"
+			>Core_Core2.</core>
+		<core
+			id="Core3"
+			load="200"
+			used_mem="53504"
+			>Core_Core3.</core>
+	</perfs>
+</data>

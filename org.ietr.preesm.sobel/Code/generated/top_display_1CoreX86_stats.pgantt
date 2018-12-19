@@ -1,0 +1,113 @@
+
+<data>
+	<event
+		start="0"
+		end="100"
+		title="Read_YUV_0 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Read_YUV_0_(x1).</event>
+	<event
+		start="100"
+		end="200"
+		title="Split_0 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Split_0_(x1).</event>
+	<event
+		start="200"
+		end="204"
+		title="explode_Split_0_output (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_explode_Split_0_output_(x1).</event>
+	<event
+		start="204"
+		end="304"
+		title="Sobel_0 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Sobel_0_(x1).</event>
+	<event
+		start="304"
+		end="404"
+		title="Sobel_1 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Sobel_1_(x1).</event>
+	<event
+		start="404"
+		end="504"
+		title="Sobel_2 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Sobel_2_(x1).</event>
+	<event
+		start="504"
+		end="604"
+		title="Sobel_3 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Sobel_3_(x1).</event>
+	<event
+		start="604"
+		end="704"
+		title="Sobel_4 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Sobel_4_(x1).</event>
+	<event
+		start="704"
+		end="804"
+		title="Sobel_5 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Sobel_5_(x1).</event>
+	<event
+		start="804"
+		end="904"
+		title="Sobel_6 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Sobel_6_(x1).</event>
+	<event
+		start="904"
+		end="1004"
+		title="Sobel_7 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Sobel_7_(x1).</event>
+	<event
+		start="1004"
+		end="1008"
+		title="implode_Merge_0_input (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_implode_Merge_0_input_(x1).</event>
+	<event
+		start="1008"
+		end="1108"
+		title="Merge_0 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_Merge_0_(x1).</event>
+	<event
+		start="1108"
+		end="1208"
+		title="display_0 (x1)"
+		mapping="Core0"
+		color="#c896fa"
+		>Step_display_0_(x1).</event>
+	<perfs>
+		work="1208"
+		span="0"
+		impl_length="1208"
+	impl_nbCores="1"
+		impl_nbUsedCores="1"
+		<core
+			id="Core0"
+			load="1208"
+			used_mem="681472"
+			>Core_Core0.</core>
+	</perfs>
+</data>

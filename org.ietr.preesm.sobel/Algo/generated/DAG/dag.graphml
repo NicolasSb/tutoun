@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="parameters" for="graph" id="parameters"/>
+    <key attr.name="variables" for="graph" id="variables"/>
+    <key attr.name="arguments" for="node" id="arguments"/>
+    <key attr.name="kind" attr.type="string" for="graph"/>
+    <key attr.name="SCHEDULE_COST" attr.type="int" for="graph"/>
+    <key attr.name="graph_desc" attr.type="string" for="node"/>
+    <key attr.name="name" attr.type="string" for="node"/>
+    <key attr.name="kind" attr.type="string" for="node"/>
+    <key attr.name="time" attr.type="string" for="node"/>
+    <key attr.name="nb_repeat" attr.type="string" for="node"/>
+    <key attr.name="OperatorDef" attr.type="string" for="node"/>
+    <key attr.name="availableOperators" attr.type="string" for="node"/>
+    <key attr.name="originalId" attr.type="string" for="node"/>
+    <key attr.name="duration" attr.type="int" for="node"/>
+    <key attr.name="schedulingOrder" attr.type="int" for="node"/>
+    <key attr.name="Operator" attr.type="string" for="node"/>
+    <key attr.name="duration" attr.type="string" for="node"/>
+    <key attr.name="dataSize" attr.type="int" for="node"/>
+    <key attr.name="receiverGraphName" attr.type="string" for="node"/>
+    <key attr.name="Weight" attr.type="string" for="edge"/>
+    <graph edgedefault="directed" kind="sdf">
+        <data key="kind">dag</data>
+        <data key="SCHEDULE_COST">0</data>
+        <data key="variables"/>
+        <node id="Read_YUV_0" kind="vertex">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@1f5c7c56</data>
+            <data key="name">Read_YUV_0</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">Read_YUV_0</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">0</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="display_0" kind="vertex">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@29e2444d</data>
+            <data key="name">display_0</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">display_0</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">37</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="Split_0" kind="vertex">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@7aed7c61</data>
+            <data key="name">Split_0</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">Split_0</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">1</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="Sobel_0" kind="vertex">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@2171e443</data>
+            <data key="name">Sobel_0</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">Sobel_0</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">9</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="Sobel_1" kind="vertex">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@5d3392f7</data>
+            <data key="name">Sobel_1</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">Sobel_1</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">11</data>
+            <data key="Operator">Core1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="Sobel_2" kind="vertex">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@66c86530</data>
+            <data key="name">Sobel_2</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">Sobel_2</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">14</data>
+            <data key="Operator">Core2</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="Sobel_3" kind="vertex">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@775703fc</data>
+            <data key="name">Sobel_3</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">Sobel_3</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">17</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="Sobel_4" kind="vertex">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@59aaa2a9</data>
+            <data key="name">Sobel_4</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">Sobel_4</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">19</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="Sobel_5" kind="vertex">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@184f3741</data>
+            <data key="name">Sobel_5</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">Sobel_5</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">21</data>
+            <data key="Operator">Core1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="Sobel_6" kind="vertex">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@3d0b209d</data>
+            <data key="name">Sobel_6</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">Sobel_6</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">24</data>
+            <data key="Operator">Core2</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="Sobel_7" kind="vertex">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@728c8c23</data>
+            <data key="name">Sobel_7</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">Sobel_7</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">27</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="explode_Split_0_output" kind="fork">
+            <data key="name">explode_Split_0_output</data>
+            <data key="kind">dag_fork_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">explode_Split_0_output</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">2</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="Merge_0" kind="vertex">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@7ebfc731</data>
+            <data key="name">Merge_0</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">Merge_0</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">36</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="implode_Merge_0_input" kind="join">
+            <data key="name">implode_Merge_0_input</data>
+            <data key="kind">dag_join_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@65be3db8 (instanceName: Core0), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@5fe5b50f (instanceName: Core1), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@3c2e078c (instanceName: Core2), org.ietr.dftools.architecture.slam.impl.ComponentInstanceImpl@18e6fa22 (instanceName: Core3)]</data>
+            <data key="originalId">implode_Merge_0_input</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">35</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_Split_0_outputSobel_1_0" kind="vertex">
+            <data key="name">s_explode_Split_0_outputSobel_1_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">6395c3d8-6ec6-4d1c-b582-f0f43316c68f</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">3</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_Split_0_outputSobel_1_0" kind="vertex">
+            <data key="name">r_explode_Split_0_outputSobel_1_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">148b3b93-cd63-4804-9495-0b0933fecb6b</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">10</data>
+            <data key="Operator">Core1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="receiverGraphName">Sobel_1</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_Split_0_outputSobel_2_0" kind="vertex">
+            <data key="name">s_explode_Split_0_outputSobel_2_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">ca8f4d3f-1c9e-4c2e-97ab-1f56db4e7fbb</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">4</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_Split_0_outputSobel_2_0" kind="vertex">
+            <data key="name">r_explode_Split_0_outputSobel_2_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">7dbfa987-bb99-495e-91a3-45271b6e9a43</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">13</data>
+            <data key="Operator">Core2</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="receiverGraphName">Sobel_2</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_Split_0_outputSobel_3_0" kind="vertex">
+            <data key="name">s_explode_Split_0_outputSobel_3_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">519dad01-413c-495c-92be-527003258e4f</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">5</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_Split_0_outputSobel_3_0" kind="vertex">
+            <data key="name">r_explode_Split_0_outputSobel_3_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">252d8797-e22d-48c7-a845-2ba1fba9f049</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">16</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="receiverGraphName">Sobel_3</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_Split_0_outputSobel_5_0" kind="vertex">
+            <data key="name">s_explode_Split_0_outputSobel_5_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">9e1f007a-1fba-45ad-ac58-c6e773ce5898</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">6</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_Split_0_outputSobel_5_0" kind="vertex">
+            <data key="name">r_explode_Split_0_outputSobel_5_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">d47741b6-7bb7-4f21-933b-1970ad5b1b69</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">20</data>
+            <data key="Operator">Core1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="receiverGraphName">Sobel_5</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_Split_0_outputSobel_6_0" kind="vertex">
+            <data key="name">s_explode_Split_0_outputSobel_6_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">74dca81f-1960-4e6a-ab5e-e7e2445f0198</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">7</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_Split_0_outputSobel_6_0" kind="vertex">
+            <data key="name">r_explode_Split_0_outputSobel_6_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">8ccfac04-7c0e-467e-9a41-9fec5b2060de</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">23</data>
+            <data key="Operator">Core2</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="receiverGraphName">Sobel_6</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_Split_0_outputSobel_7_0" kind="vertex">
+            <data key="name">s_explode_Split_0_outputSobel_7_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">735a4879-92e4-4271-a25a-0a976f5b56df</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">8</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_Split_0_outputSobel_7_0" kind="vertex">
+            <data key="name">r_explode_Split_0_outputSobel_7_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">ca027233-ce9e-4576-a80b-a7a857d4fb51</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">26</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="receiverGraphName">Sobel_7</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_Sobel_1implode_Merge_0_input_0" kind="vertex">
+            <data key="name">s_Sobel_1implode_Merge_0_input_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">4a671e93-77fd-4643-9c2b-57990b9a1dcb</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">12</data>
+            <data key="Operator">Core1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_Sobel_1implode_Merge_0_input_0" kind="vertex">
+            <data key="name">r_Sobel_1implode_Merge_0_input_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">db20af80-c416-4db5-a99c-e532300c8773</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">29</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="receiverGraphName">implode_Merge_0_input</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_Sobel_2implode_Merge_0_input_0" kind="vertex">
+            <data key="name">s_Sobel_2implode_Merge_0_input_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">96c5bcd0-91a8-42cb-a6d1-a5f643ea9d9a</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">15</data>
+            <data key="Operator">Core2</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_Sobel_2implode_Merge_0_input_0" kind="vertex">
+            <data key="name">r_Sobel_2implode_Merge_0_input_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">a4d3fbb3-c030-4f54-b477-6becbc604614</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">30</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="receiverGraphName">implode_Merge_0_input</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_Sobel_3implode_Merge_0_input_0" kind="vertex">
+            <data key="name">s_Sobel_3implode_Merge_0_input_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">6d17fd3c-4f6f-4eda-b93d-e513bd5de8f7</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">18</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_Sobel_3implode_Merge_0_input_0" kind="vertex">
+            <data key="name">r_Sobel_3implode_Merge_0_input_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">38a57df1-b05b-4e81-af12-81cee00bf33a</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">31</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="receiverGraphName">implode_Merge_0_input</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_Sobel_5implode_Merge_0_input_0" kind="vertex">
+            <data key="name">s_Sobel_5implode_Merge_0_input_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">778640ef-280e-4d58-8f4c-3b0d2e85011e</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">22</data>
+            <data key="Operator">Core1</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_Sobel_5implode_Merge_0_input_0" kind="vertex">
+            <data key="name">r_Sobel_5implode_Merge_0_input_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">40bca47a-524d-4a8a-bb3e-fd1640c121e9</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">32</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="receiverGraphName">implode_Merge_0_input</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_Sobel_6implode_Merge_0_input_0" kind="vertex">
+            <data key="name">s_Sobel_6implode_Merge_0_input_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">6dd198b4-373d-4ade-80cf-c03b21f6e250</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">25</data>
+            <data key="Operator">Core2</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_Sobel_6implode_Merge_0_input_0" kind="vertex">
+            <data key="name">r_Sobel_6implode_Merge_0_input_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">ad220371-5940-4e25-9fb7-b6decf5ac639</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">33</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="receiverGraphName">implode_Merge_0_input</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_Sobel_7implode_Merge_0_input_0" kind="vertex">
+            <data key="name">s_Sobel_7implode_Merge_0_input_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">b78dbbe9-8fda-441d-b243-e8910b15b9f5</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">28</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_Sobel_7implode_Merge_0_input_0" kind="vertex">
+            <data key="name">r_Sobel_7implode_Merge_0_input_0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">dc0f7d13-0636-4001-84be-bb42ccb6f169</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">34</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">x86</data>
+            <data key="dataSize">13376</data>
+            <data key="OperatorDef">x86</data>
+            <data key="receiverGraphName">implode_Merge_0_input</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <edge source="Read_YUV_0" sourceport="out0" target="display_0" targetport="in0">
+            <data key="Weight">50688</data>
+            <data key="edge_prod">50688</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">50688</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Split_0" sourceport="out0"
+            target="explode_Split_0_output" targetport="in0">
+            <data key="Weight">107008</data>
+            <data key="edge_prod">107008</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">107008</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out0"
+            target="Sobel_0" targetport="in0">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out1"
+            target="Sobel_1" targetport="in0">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out2"
+            target="Sobel_2" targetport="in0">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out3"
+            target="Sobel_3" targetport="in0">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out4"
+            target="Sobel_4" targetport="in0">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out5"
+            target="Sobel_5" targetport="in0">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out6"
+            target="Sobel_6" targetport="in0">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out7"
+            target="Sobel_7" targetport="in0">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="implode_Merge_0_input" sourceport="out0"
+            target="Merge_0" targetport="in0">
+            <data key="Weight">107008</data>
+            <data key="edge_prod">107008</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">107008</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_0" sourceport="out0"
+            target="implode_Merge_0_input" targetport="in0">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_1" sourceport="out0"
+            target="implode_Merge_0_input" targetport="in1">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_2" sourceport="out0"
+            target="implode_Merge_0_input" targetport="in2">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_3" sourceport="out0"
+            target="implode_Merge_0_input" targetport="in3">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_4" sourceport="out0"
+            target="implode_Merge_0_input" targetport="in4">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_5" sourceport="out0"
+            target="implode_Merge_0_input" targetport="in5">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_6" sourceport="out0"
+            target="implode_Merge_0_input" targetport="in6">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_7" sourceport="out0"
+            target="implode_Merge_0_input" targetport="in7">
+            <data key="Weight">13376</data>
+            <data key="edge_prod">13376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">13376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Read_YUV_0" sourceport="out1" target="Split_0" targetport="in0">
+            <data key="Weight">101376</data>
+            <data key="edge_prod">101376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">101376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Merge_0" sourceport="out0" target="display_0" targetport="in1">
+            <data key="Weight">101376</data>
+            <data key="edge_prod">101376</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">101376</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out8"
+            target="s_explode_Split_0_outputSobel_1_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_explode_Split_0_outputSobel_1_0"
+            sourceport="out0" target="r_explode_Split_0_outputSobel_1_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_explode_Split_0_outputSobel_1_0"
+            sourceport="out0" target="Sobel_1" targetport="in1">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out9"
+            target="s_explode_Split_0_outputSobel_2_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_explode_Split_0_outputSobel_2_0"
+            sourceport="out0" target="r_explode_Split_0_outputSobel_2_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_explode_Split_0_outputSobel_2_0"
+            sourceport="out0" target="Sobel_2" targetport="in1">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out10"
+            target="s_explode_Split_0_outputSobel_3_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_explode_Split_0_outputSobel_3_0"
+            sourceport="out0" target="r_explode_Split_0_outputSobel_3_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_explode_Split_0_outputSobel_3_0"
+            sourceport="out0" target="Sobel_3" targetport="in1">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out11"
+            target="s_explode_Split_0_outputSobel_5_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_explode_Split_0_outputSobel_5_0"
+            sourceport="out0" target="r_explode_Split_0_outputSobel_5_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_explode_Split_0_outputSobel_5_0"
+            sourceport="out0" target="Sobel_5" targetport="in1">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out12"
+            target="s_explode_Split_0_outputSobel_6_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_explode_Split_0_outputSobel_6_0"
+            sourceport="out0" target="r_explode_Split_0_outputSobel_6_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_explode_Split_0_outputSobel_6_0"
+            sourceport="out0" target="Sobel_6" targetport="in1">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_Split_0_output" sourceport="out13"
+            target="s_explode_Split_0_outputSobel_7_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_explode_Split_0_outputSobel_7_0"
+            sourceport="out0" target="r_explode_Split_0_outputSobel_7_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_explode_Split_0_outputSobel_7_0"
+            sourceport="out0" target="Sobel_7" targetport="in1">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_1" sourceport="out1"
+            target="s_Sobel_1implode_Merge_0_input_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_Sobel_1implode_Merge_0_input_0"
+            sourceport="out0" target="r_Sobel_1implode_Merge_0_input_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_Sobel_1implode_Merge_0_input_0"
+            sourceport="out0" target="implode_Merge_0_input" targetport="in8">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_2" sourceport="out1"
+            target="s_Sobel_2implode_Merge_0_input_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_Sobel_2implode_Merge_0_input_0"
+            sourceport="out0" target="r_Sobel_2implode_Merge_0_input_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_Sobel_2implode_Merge_0_input_0"
+            sourceport="out0" target="implode_Merge_0_input" targetport="in9">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_3" sourceport="out1"
+            target="s_Sobel_3implode_Merge_0_input_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_Sobel_3implode_Merge_0_input_0"
+            sourceport="out0" target="r_Sobel_3implode_Merge_0_input_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_Sobel_3implode_Merge_0_input_0"
+            sourceport="out0" target="implode_Merge_0_input" targetport="in10">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_5" sourceport="out1"
+            target="s_Sobel_5implode_Merge_0_input_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_Sobel_5implode_Merge_0_input_0"
+            sourceport="out0" target="r_Sobel_5implode_Merge_0_input_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_Sobel_5implode_Merge_0_input_0"
+            sourceport="out0" target="implode_Merge_0_input" targetport="in11">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_6" sourceport="out1"
+            target="s_Sobel_6implode_Merge_0_input_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_Sobel_6implode_Merge_0_input_0"
+            sourceport="out0" target="r_Sobel_6implode_Merge_0_input_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_Sobel_6implode_Merge_0_input_0"
+            sourceport="out0" target="implode_Merge_0_input" targetport="in12">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="Sobel_7" sourceport="out1"
+            target="s_Sobel_7implode_Merge_0_input_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_Sobel_7implode_Merge_0_input_0"
+            sourceport="out0" target="r_Sobel_7implode_Merge_0_input_0" targetport="in0">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_Sobel_7implode_Merge_0_input_0"
+            sourceport="out0" target="implode_Merge_0_input" targetport="in13">
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+    </graph>
+</graphml>
